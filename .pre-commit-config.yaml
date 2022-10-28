@@ -1,0 +1,13 @@
+exclude: 'docker |
+        django_react_boilerplate/frontend/ |
+        '
+repos:
+-   repo: https://github.com/psf/black
+    rev: 22.3.0
+    hooks:
+    -   id: black
+        exclude: ^(migrations/|node_modules/)
+-   repo: https://github.com/asottile/reorder_python_imports
+    rev: v2.6.0
+    hooks:
+    -   id: reorder-python-imports

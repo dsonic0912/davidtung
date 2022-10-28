@@ -1,0 +1,8 @@
+**
+
+!Pipfile
+!Pipfile.lock
+!davidtung/backend/
+!davidtung/frontend/build/
+!davidtung/frontend/*.py
+!davidtung/manage.py
